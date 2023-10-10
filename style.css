@@ -25,7 +25,7 @@ body{
 
 .center{
     width: 600px;
-    background-color: rgba(14, 2, 34, 0.6);
+    background-color: rgba(14, 2, 34, 0.7);
     height: 550px;
     text-align: center;
     border-radius: 15px;
@@ -59,4 +59,33 @@ h1{
 
 .socialmedia i:hover{
     color: rgba(188, 169, 231, 0.9);
+}
+
+@media screen and (max-width: 700px){
+    .center{
+        width: 300px;
+        height: 550px;
+    }
+
+    h1{
+        font-size: 22px;
+    }
+
+    h2{
+        font-size: 16px;
+    }
+
+    p{
+        width: 90%;
+        font-size: 12px;
+    }
+
+    h3{
+        font-size: 14px;
+    }
+
+    .socialmedia a i{
+        font-size: 35px;
+        padding: 0 5px;
+    }
 }
